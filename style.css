@@ -77,11 +77,8 @@ body {
 .hero p {
 
     width: 700px;
-
     margin-bottom: 30px;
-
     font-size: 18px;
-
     line-height: 30px;
 
 }
@@ -91,19 +88,16 @@ body {
     font-style: italic;
 
 }
-
+/* Speakers Section */
 .speakers {
-
     padding: 80px;
+    background: #f5f5f5;
 
 }
-
 .speakers h2 {
 
     text-align: center;
-
     font-size: 45px;
-
     margin-bottom: 50px;
 
 }
@@ -111,9 +105,7 @@ body {
 .speaker-grid {
 
     display: grid;
-
     grid-template-columns: repeat(2, 1fr);
-
     gap: 30px;
 
 }
@@ -131,9 +123,7 @@ body {
 .card img {
 
     width: 100%;
-
     height: 300px;
-
     object-fit: cover;
 
 }
@@ -141,11 +131,8 @@ body {
 .card small {
 
     color: blue;
-
     padding: 15px;
-
     display: block;
-
     font-weight: bold;
 
 }
@@ -159,54 +146,40 @@ body {
 .card p {
 
     padding: 15px;
-
-    color: gray;
+    color: rgb(255, 254, 254);
 
 }
 /* Pricing Section */
 .pricing{
 
     padding:100px 0;
-
     background:#ffffff;
 
 }
 
 .pricing h2{
 
-    font-size:62px;
-
+    font-size:48px;
     font-weight:800;
-
     color:#111827;
-
     text-align:center;
-
     margin-bottom:18px;
 
 }
 
 .subtitle{
-
     text-align:center;
     color:#6b7280;
-
     font-size:22px;
-
     margin-bottom:70px;
-
 }
 
 .pricing-container{
 
     width:1200px;
-
     margin:auto;
-
     display:flex;
-
     gap:28px;
-
     justify-content:center;
 
 }
@@ -214,13 +187,9 @@ body {
 .pricingcard{
 
     width:370px;
-
     border:1px solid #E5E7EB;
-
     border-radius:14px;
-
     padding:32px;
-
     background:white;
 
 }
@@ -228,11 +197,8 @@ body {
 .plan{
 
     font-size:14px;
-
     color:#7a7a7a;
-
     font-weight:700;
-
     letter-spacing:1px;
 
 }
@@ -240,11 +206,8 @@ body {
 .pricingcard h3{
 
     font-size:62px;
-
     font-weight:800;
-
     color:#111827;
-
     margin-top:10px;
 
 }
@@ -252,7 +215,6 @@ body {
 .person{
 
     color:#777;
-
     font-size:17px;
 
 }
@@ -369,4 +331,105 @@ body {
 
     color:white;
 
+}
+
+/* AI Prompt CTA Section */
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#0d1117;
+}
+
+/* CTA Section */
+
+.cta{
+    padding:100px 20px;
+    background:linear-gradient(135deg,#030030,#5543ff);
+}
+
+.cta-content{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+    color:#fff;
+}
+
+.cta h2{
+    font-size:48px;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.cta p{
+    font-size:18px;
+    line-height:1.8;
+    max-width:700px;
+    margin:0 auto 40px;
+    opacity:.9;
+}
+
+.cta-buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.cta-buttons a{
+    text-decoration:none;
+    padding:16px 36px;
+    border-radius:50px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn-primary{
+    background:#fff;
+    color:#6C63FF;
+}
+
+.btn-primary:hover{
+    background:#f1f1f1;
+    transform:translateY(-4px);
+}
+
+.btn-secondary{
+    border:2px solid #fff;
+    color:#fff;
+}
+
+.btn-secondary:hover{
+    background:#fff;
+    color:#6C63FF;
+    transform:translateY(-4px);
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.cta h2{
+    font-size:34px;
+}
+
+.cta p{
+    font-size:16px;
+}
+
+.cta-buttons{
+    flex-direction:column;
+    align-items:center;
+}
+
+.cta-buttons a{
+    width:220px;
+}
 }
