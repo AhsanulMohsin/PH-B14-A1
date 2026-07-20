@@ -64,7 +64,7 @@ body {
     align-items: center;
     text-align: center;
 
-    color: white;
+    color: rgb(252, 251, 251);
 
 }
 
@@ -146,7 +146,7 @@ body {
 .card p {
 
     padding: 15px;
-    color: rgb(255, 254, 254);
+    color: rgb(37, 36, 36);
 
 }
 /* Pricing Section */
@@ -352,7 +352,7 @@ body{
 
 .cta{
     padding:100px 20px;
-    background:linear-gradient(135deg,#030030,#5543ff);
+    background:linear-gradient(135deg,#030030,#6554ff);
 }
 
 .cta-content{
