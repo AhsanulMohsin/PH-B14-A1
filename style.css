@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
 
 body {
@@ -120,12 +121,10 @@ body {
 .card {
 
     border: 1px solid #ddd;
-
     border-radius: 10px;
-
     overflow: hidden;
-
     background: white;
+    
 
 }
 
@@ -162,5 +161,212 @@ body {
     padding: 15px;
 
     color: gray;
+
+}
+/* Pricing Section */
+.pricing{
+
+    padding:100px 0;
+
+    background:#ffffff;
+
+}
+
+.pricing h2{
+
+    font-size:62px;
+
+    font-weight:800;
+
+    color:#111827;
+
+    text-align:center;
+
+    margin-bottom:18px;
+
+}
+
+.subtitle{
+
+    text-align:center;
+    color:#6b7280;
+
+    font-size:22px;
+
+    margin-bottom:70px;
+
+}
+
+.pricing-container{
+
+    width:1200px;
+
+    margin:auto;
+
+    display:flex;
+
+    gap:28px;
+
+    justify-content:center;
+
+}
+
+.pricingcard{
+
+    width:370px;
+
+    border:1px solid #E5E7EB;
+
+    border-radius:14px;
+
+    padding:32px;
+
+    background:white;
+
+}
+
+.plan{
+
+    font-size:14px;
+
+    color:#7a7a7a;
+
+    font-weight:700;
+
+    letter-spacing:1px;
+
+}
+
+.pricingcard h3{
+
+    font-size:62px;
+
+    font-weight:800;
+
+    color:#111827;
+
+    margin-top:10px;
+
+}
+
+.person{
+
+    color:#777;
+
+    font-size:17px;
+
+}
+
+.pricingcard hr{
+
+    border:none;
+
+    border-top:1px solid #ececec;
+
+    margin:28px 0;
+
+}
+
+.pricingcard ul{
+
+    list-style:none;
+
+}
+
+.pricingcard ul li{
+
+    margin-bottom:18px;
+
+    color:#374151;
+
+    font-size:17px;
+
+    position:relative;
+
+    padding-left:18px;
+
+}
+
+.pricingcard ul li::before{
+
+    content:"•";
+
+    position:absolute;
+
+    left:0;
+
+    color:#3b82f6;
+
+}
+
+.pricingcard button{
+
+    width:100%;
+
+    margin-top:25px;
+
+    height:52px;
+
+    border-radius:8px;
+
+    border:2px solid #2563eb;
+
+    background:white;
+
+    color:#2563eb;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+    font-size:17px;
+
+}
+
+.active{
+
+    background:#111C2D;
+
+    color:white;
+
+}
+
+.active h3{
+
+    color:white;
+
+}
+
+.active .plan{
+
+    color:#b6c0d2;
+
+}
+
+.active .person{
+
+    color:#d1d5db;
+
+}
+
+.active hr{
+
+    border-top:1px solid #344054;
+
+}
+
+.active li{
+
+    color:#e5e7eb;
+
+}
+
+.active button{
+
+    background:#2F5BFF;
+
+    border:none;
+
+    color:white;
 
 }
